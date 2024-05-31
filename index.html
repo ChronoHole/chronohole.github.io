@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -30,178 +30,27 @@
 				src: local('Roboto-Regular'), url('fonts/Roboto/Roboto-Regular.ttf'),
 					format('ttf');
 			}
-		</style>
-		<link rel="manifest" href="/manifest.webmanifest"
-	/></head>
-	<body>
-		<div id="root">
-			<svg
-				version="1.1"
-				id="loader-logo"
-				role="img"
-				xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				xml:space="preserve"
-				viewBox="3150 6100 45000 7850"
-				shape-rendering="geometricPrecision"
-				text-rendering="geometricPrecision">
-				<defs>
-					<linearGradient
-						id="gradient"
-						x1="3150"
-						y1="10025"
-						x2="45000"
-						y2="10025"
-						gradientUnits="userSpaceOnUse">
-						<stop offset="0.25" stop-color="#e8e8e8" />
-						<stop offset="0.5" stop-color="#f0f0f0" />
-						<stop offset="0.75" stop-color="#e8e8e8" />
-					</linearGradient>
-					<mask id="logo-mask" mask-type="luminance">
-						<path
-							d="M12807.56,10048.37c0,0,371.79-3693.66-4610.93-3842.37l-5064.55-.02-.06,7703.34l5101.83-.06c0,0,4393.1,69.19,4573.71-3860.89ZM5390.58,8158.62l2669.76.88c2626.56,73.84,2430.51,1907.54,2430.51,1907.54-95.19,1951.97-2410.95,1917.6-2410.95,1917.6h-2689.32v-3826.02Z"
-							fill="#fff"
-							clip-rule="evenodd"
-							fill-rule="evenodd" />
-						<path
-							d="M40582.31,10032.63l-.04-1873.93l3756.79-.02c826.65,2.57,1495.32,420.17,1495.32,936.71s-672.32,937.22-1502.51,937.22c-1249.85,0-2499.71.04-3749.56.02ZM43547.6,11984.7c1944.67-24.7,2692.01-415.42,2692.01-415.42c1070.49-492.15,1795.79-1374.15,1835.73-2386.46c0-.36,0-.54.04-.54c1.12-29.11,1.7-58.32,1.7-87.63c0-307.22-63.14-603.26-180.13-881-490.44-1164.49-1927.15-2007.63-3623.48-2007.63-1975,0-3949.98-.04-5924.97-.04l-.02,7703.32h2233.83l-.02-1924.6h2965.31Z"
-							fill="#fff"
-							clip-rule="evenodd"
-							fill-rule="evenodd" />
-						<path
-							d="M21365.49,7981.96l-1558.03,2118.89l1376.6,1884.01-2761.96-.04-1415.17,1924.58h8355.58c68.34,0,103-49.05,73-93.74l-4070.02-5833.7Z"
-							fill="#fff"
-							clip-rule="evenodd"
-							fill-rule="evenodd" />
-						<path
-							d="M32722.53,8158.72c854.62,2.57,1545.91,420.97,1545.91,936.71c0,517.34-695.07,937.22-1553.34,937.22-13.97,0-27.87.18-41.74-.04l-3915.64.04v-1873.97l3964.81.04Zm-67.8-1952.66c-15.14,0-30.14-.16-44.99-.04l-6085.97-.02-.02,7703.3l2233.97.02v-1924.62h3133.52l2219.54,1924.58h3067.43c157.18,3.17,149.39-23.63,56.27-106.91l-2547.11-2233.05C35826.08,11062.94,36587,10143.81,36587,9094.69c0-1595.32-1760.3-2888.63-3932.27-2888.63Z"
-							fill="#fff"
-							clip-rule="evenodd"
-							fill-rule="evenodd" />
-						<path
-							d="M17607.05,7024.6l-4856.83,6741.75c-109.74,149.88,31.94,142.41,82.03,143.13c921.64,13.27,1850.91,0,2776.36,0l5045.05-6919.39c-409.03-430.27-638.91-593.7-638.91-593.7-1280.19-940.24-2407.7,628.21-2407.7,628.21Z"
-							fill="#fff"
-							clip-rule="evenodd"
-							fill-rule="evenodd" />
-					</mask>
-					<style>
-						#loader-logo {
-							position: absolute;
-							top: 0;
-							left: 0;
-							right: 0;
-							bottom: 0;
-							margin: auto;
-							width: 280px;
-						}
-
-						#logo-gradient {
-							top: 0;
-							transform: translateX(100%);
-							width: 100%;
-							position: absolute;
-							z-index: 1;
-							animation: slide 1.4s infinite;
-						}
-
-						@keyframes slide {
-							0% {
-								transform: translateX(-100%);
-							}
-							100% {
-								transform: translateX(100%);
-							}
-						}
-					</style>
-				</defs>
-				<g id="logo-group" mask="url(#logo-mask)">
-					<rect
-						id="logo-rect"
-						width="45000"
-						height="7850"
-						x="3150"
-						y="6100"
-						fill="#e8e8e8"
-						stroke-width="0" />
-					<rect
-						id="logo-gradient"
-						width="45000"
-						height="7850"
-						x="3150"
-						y="6100"
-						fill="url(#gradient)"
-						stroke-width="0" />
-				</g>
-			</svg>
-		</div>
-		<script
-			async
-			type="module"
-			crossorigin
-			src="/assets/index-7a302e67.js"></script>
-		<link rel="stylesheet" href="/assets/index-82fafad6.css" />
-		<script type="module">
-			import.meta.url
-			import('_').catch(() => 1)
-			async function* g() {}
-			if (location.protocol != 'file:') {
-				window.__vite_is_modern_browser = true
+			.darp-loader:empty {
+				content: url('/assets/svg/darp-logo-loader.svg');
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				width: 280px;
 			}
-		</script>
-		<script type="module">
-			!(function () {
-				if (window.__vite_is_modern_browser) return
-				console.warn(
-					'vite: loading legacy chunks, syntax error above and the same error below should be ignored'
-				)
-				var e = document.getElementById('vite-legacy-polyfill'),
-					n = document.createElement('script')
-				;(n.src = e.src),
-					(n.onload = function () {
-						System.import(
-							document
-								.getElementById('vite-legacy-entry')
-								.getAttribute('data-src')
-						)
-					}),
-					document.body.appendChild(n)
-			})()
-		</script>
-		<script nomodule>
-			!(function () {
-				var e = document,
-					t = e.createElement('script')
-				if (!('noModule' in t) && 'onbeforeload' in t) {
-					var n = !1
-					e.addEventListener(
-						'beforeload',
-						function (e) {
-							if (e.target === t) n = !0
-							else if (!e.target.hasAttribute('nomodule') || !n) return
-							e.preventDefault()
-						},
-						!0
-					),
-						(t.type = 'module'),
-						(t.src = '.'),
-						e.head.appendChild(t),
-						t.remove()
-				}
-			})()
-		</script>
-		<script
-			nomodule
-			crossorigin
-			id="vite-legacy-polyfill"
-			src="/assets/polyfills-legacy-5c1f1e9a.js"></script>
-		<script
-			nomodule
-			crossorigin
-			id="vite-legacy-entry"
-			data-src="/assets/index-legacy-47a04b75.js">
-			System.import(
-				document.getElementById('vite-legacy-entry').getAttribute('data-src')
-			)
-		</script>
+		</style>
+		<script type="module" crossorigin src="/assets/index-7a302e67.js"></script>
+		<link rel="stylesheet" href="/assets/index-82fafad6.css">
+		<script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+		<script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+	<link rel="manifest" href="/manifest.webmanifest"></head>
+	<body>
+		<div id="root" class="darp-loader"></div>
+		
+		<script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+		<script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-5c1f1e9a.js"></script>
+		<script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-47a04b75.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
 	</body>
 </html>
